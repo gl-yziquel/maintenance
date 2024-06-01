@@ -12,3 +12,7 @@ default: help
 # Shows the readme file.
 @readme:
 	less README.md
+
+# Shows the license.
+@license:
+	less LICENSE
