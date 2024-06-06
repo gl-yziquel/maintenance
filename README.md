@@ -11,8 +11,11 @@ We here document the list of repositories on which the author performs maintenan
 
 * The [taskshell][taskshell] repository. A taskwarrior shell that doesn't seem to be maintained much anymore. Because of a naming clash between go-task's task task runner and taskwarrior's task executable, taskshell has been given a way to specifiy the taskwarrior executable executed in the tasksh shell through the TASKBIN environment variable.
 
+* The [python-parse-2D][parse2D] repository. The packaging was not conventional. It now builds with `python -m build --wheel` from the root folder.
+
 [legit]: https://github.com/gl-yziquel/legit
 [taskshell]: https://github.com/gl-yziquel/taskshell
+[parse2D]: https://github.com/gl-yziquel/python-parse-2d
 
 
 Tooling.
