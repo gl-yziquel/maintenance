@@ -5,7 +5,7 @@ default: help
 @help:
 	echo
 	echo Manifest of repositories undergoing maintenance chores.
-	echo =======================================================
+	echo ───────────────────────────────────────────────────────
 	echo
 	just --list --unsorted --justfile "{{ justfile() }}"
 
