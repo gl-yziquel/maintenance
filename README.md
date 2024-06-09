@@ -7,14 +7,17 @@ Repositories undergoing sporadic maintenance.
 
 We here document the list of repositories on which the author performs maintenance tasks of one kind or another.
 
-* The [legit][legit] repository. A frontend for serving git repositories, rather bare bones. The legit repository is pinned to a version, 0.2.0, where the mismatched pack length that has been hitting the authors is known not to occur. This is a regression being thus documented.
+* The [legit][legit] repository. A frontend for serving git repositories, rather bare bones. The legit repository is pinned to a version, 0.2.0, where the mismatched pack length that has been hitting the authors is known not to occur. This is a regression being thus documented. Note: there seems to be some forks of legit in the wild such as that of [mleka][legit-mleka] that are not easily discoverable and that have recent commits we should investigate.
 
-* The [taskshell][taskshell] repository. A taskwarrior shell that doesn't seem to be maintained much anymore. Because of a naming clash between go-task's task task runner and taskwarrior's task executable, taskshell has been given a way to specifiy the taskwarrior executable executed in the tasksh shell through the TASKBIN environment variable.
+* The [taskshell][taskshell] repository. A taskwarrior shell that doesn't seem to be maintained much anymore. Because of a naming clash between [go-task's task][go-task] task runner and taskwarrior's task executable, taskshell has been given a way to specifiy the taskwarrior executable executed in the tasksh shell through the `TASKBIN` environment variable. We should consider using [fpm][fpm] to give a shot at packaging it.
 
 * The [python-parse-2D][parse2D] repository. The packaging was not conventional. It now builds with `python -m build --wheel` from the root folder.
 
 [legit]: https://github.com/gl-yziquel/legit
+[legit-mleka]: https://mleku.net/legit
 [taskshell]: https://github.com/gl-yziquel/taskshell
+[go-task]: https://github.com/go-task/task
+[fpm]: https://github.com/jordansissel/fpm
 [parse2D]: https://github.com/gl-yziquel/python-parse-2d
 
 
