@@ -29,3 +29,13 @@ We here list repositories that, though not maintained by the author, have releva
 * The [`reposync`][reposync] mirroring tool, with rsync over ssh. Used in the context of mirroring of the openbsd source code. This tool could be used in a more general context than openbsd, and has here been adapted to run, albeit very much imperfectly, on a linux box.
 
 [reposync]: https://github.com/gl-yziquel/reposync
+
+
+Archeology.
+-----------
+
+One step beyond the notion of software maintenance lies the discipline of software archeology. So.... here goes:
+
+* Wangs's [theorem prover][wang] in SNOBOL4.
+
+[wang]: https://github.com/gl-yziquel/wang-prover-snobol4
