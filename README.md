@@ -1,7 +1,7 @@
 Manifest of repositories undergoing maintenance chores.
 =======================================================
 
-This  is supposed  to  be  a repository  managing  other  repositories with  the
+This is supposed to be a repository managing other repositories with the
 [jiri][jiri] tool.
 
 [jiri]: https://fuchsia.googlesource.com/jiri
@@ -29,8 +29,11 @@ given a way to specifiy the  taskwarrior executable executed in the tasksh shell
 through the `TASKBIN` environment variable.  We should consider using [fpm][fpm]
 to give a shot at packaging it.
 
-* The [python-parse-2D][parse2D] repository. The packaging was not conventional.
-It now builds with `python -m build --wheel` from the root folder              .
+* The [python-parse-2D][parse2D] repository. The packaging was not conventional;
+it now builds with `python -m build --wheel` from the root folder.
+
+* The [far][far] paragraph formatter by Stephen Huan. It was a simple script; it
+is now a hatch package.
 
 [legit]: https://github.com/gl-yziquel/legit
 [legit-mleka]: https://mleku.net/legit
@@ -38,6 +41,7 @@ It now builds with `python -m build --wheel` from the root folder              .
 [go-task]: https://github.com/go-task/task
 [fpm]: https://github.com/jordansissel/fpm
 [parse2D]: https://github.com/gl-yziquel/python-parse-2d
+[far]: https://github.com/gl-yziquel/far-dynamic-programming
 
 
 Repositories undergoing sporadic curation.
