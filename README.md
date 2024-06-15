@@ -1,8 +1,10 @@
 Manifest of repositories undergoing maintenance chores.
 =======================================================
 
-This is  supposed to be a  repository managing other repositories  with the jiri
-tool.
+This  is supposed  to  be  a repository  managing  other  repositories with  the
+[jiri][jiri] tool.
+
+[jiri]: https://fuchsia.googlesource.com/jiri
 
 
 Repositories undergoing sporadic maintenance.
@@ -45,7 +47,7 @@ Some projects are  of interest to the  author, but are not  in format acceptable
 for smooth consumption, either for the author or the general public. We here aim
 to list them, and work on them:
 
-*         The         [`icosahedron`][icosahedron]        repository,         by
+* The [`icosahedron`][icosahedron] repository, by
 [shironetsu][icosahedron-shironetsu],  is  a  Jupyter  notebook  describing  the
 relationship between the icosahedron and the combinatorics of the Payley biplane
 geometry, along  the lines of Kostant.  Rough stuff. Moreover, it  is written in
