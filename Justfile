@@ -1,15 +1,12 @@
+set allow-duplicate-variables
+
+TITLE := "Manifest of repositories undergoing maintenance chores."
+
+import  "just.d/help.just"
 import? "local.just"
 
 [private]
 default: help
-
-[private]
-@help:
-	echo
-	echo Manifest of repositories undergoing maintenance chores.
-	echo ───────────────────────────────────────────────────────
-	echo
-	just --list --unsorted --justfile "{{ justfile() }}"
 
 # Shows the readme file.
 @readme:

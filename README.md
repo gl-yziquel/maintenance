@@ -13,7 +13,7 @@ bare  bones. The  legit repository  is  pinned to  a version,  0.2.0, where  the
 mismatched pack length that has been hitting  the authors is known not to occur.
 This is a regression  being thus documented. Note: there seems  to be some forks
 of legit in  the wild such as  that of [mleka][legit-mleka] that  are not easily
-discoverable and that have recent commits we should investigate.
+discoverable and that have recent commits we should investigate. It seems however that git upgrades have broken this fix, which did work, and does not anymore...
 
 * The [taskshell][taskshell]  repository. A taskwarrior shell  that doesn't seem
 to be  maintained much  anymore. Because  of a  naming clash  between [go-task's
