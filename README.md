@@ -13,14 +13,7 @@ Repositories undergoing sporadic maintenance.
 We  here  document  the  list  of repositories  on  which  the  author  performs
 maintenance tasks of one kind or another.
 
-* The [legit][legit] repository. A frontend for serving git repositories, rather
-bare  bones. The  legit repository  is  pinned to  a version,  0.2.0, where  the
-mismatched pack length that has been hitting  the authors is known not to occur.
-This is a regression  being thus documented. Note: there seems  to be some forks
-of legit in  the wild such as  that of [mleka][legit-mleka] that  are not easily
-discoverable  and that  have  recent  commits we  should  investigate. It  seems
-however that  git upgrades have  broken this fix, which  did work, and  does not
-anymore...
+* The [browsh][browsh] repository. A fix to the Dockerfile build has been made by Farzad Qassemi. A link to a tarball for the go language tarball was broken. It is now possible to build and execute the built docker image.
 
 * The [taskshell][taskshell]  repository. A taskwarrior shell  that doesn't seem
 to be  maintained much  anymore. Because  of a  naming clash  between [go-task's
@@ -30,8 +23,18 @@ through the `TASKBIN` environment variable.  We should consider using [fpm][fpm]
 to give a shot at packaging it.
 
 * The [python-parse-2D][parse2D] repository. The packaging was not conventional.
-It now builds with `python -m build --wheel` from the root folder              .
+It now builds with `python -m build --wheel` from the root folder.
 
+* The [legit][legit] repository. A frontend for serving git repositories, rather
+bare  bones. The  legit repository  is  pinned to  a version,  0.2.0, where  the
+mismatched pack length that has been hitting  the authors is known not to occur.
+This is a regression  being thus documented. Note: there seems  to be some forks
+of legit in  the wild such as  that of [mleka][legit-mleka] that  are not easily
+discoverable  and that  have  recent  commits we  should  investigate. It  seems
+however that  git upgrades have  broken this fix, which  did work, and  does not
+anymore...
+
+[browsh]: https://github.com/gl-yziquel/browsh
 [legit]: https://github.com/gl-yziquel/legit
 [legit-mleka]: https://mleku.net/legit
 [taskshell]: https://github.com/gl-yziquel/taskshell
