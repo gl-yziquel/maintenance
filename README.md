@@ -1,7 +1,7 @@
 Manifest of repositories undergoing maintenance chores.
 =======================================================
 
-This  is supposed  to  be  a repository  managing  other  repositories with  the
+This is supposed to be a repository managing other repositories with the
 [jiri][jiri] tool.
 
 [jiri]: https://fuchsia.googlesource.com/jiri
@@ -13,7 +13,9 @@ Repositories undergoing sporadic maintenance.
 We  here  document  the  list  of repositories  on  which  the  author  performs
 maintenance tasks of one kind or another.
 
-* The [browsh][browsh] repository. A fix to the Dockerfile build has been made by Farzad Qassemi. A link to a tarball for the go language tarball was broken. It is now possible to build and execute the built docker image.
+* The [browsh][browsh]  repository. A fix to the Dockerfile  build has been made
+by Farzad Qassemi. A  link to a tarball for the go  language tarball was broken.
+It is now possible to build and execute the built docker image.
 
 * The [taskshell][taskshell]  repository. A taskwarrior shell  that doesn't seem
 to be  maintained much  anymore. Because  of a  naming clash  between [go-task's
@@ -23,7 +25,7 @@ through the `TASKBIN` environment variable.  We should consider using [fpm][fpm]
 to give a shot at packaging it.
 
 * The [python-parse-2D][parse2D] repository. The packaging was not conventional.
-It now builds with `python -m build --wheel` from the root folder.
+It now builds with `python -m build --wheel` from the root folder              .
 
 * The [legit][legit] repository. A frontend for serving git repositories, rather
 bare  bones. The  legit repository  is  pinned to  a version,  0.2.0, where  the
