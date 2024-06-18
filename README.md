@@ -62,8 +62,13 @@ japanese. Needless  to say, this is  not easy material  to get into. We  hope to
 simplify the process involved in  that by progressively curating this repository
 in our own fork.
 
+*  The [`qu-prolog`][qu-prolog]  is a  prolog  system with  builtin support  for
+quantification. The repository here provided  is a concatenation of the released
+tarballs.
+
 [icosahedron]: https://github.com/gl-yziquel/icosahedron.git
 [icosahedron-shironets]: https://github.com/shironetsu/icosahedron.git
+[qu-prolog]: https://github.com/gl-yziquel/qu-prolog
 
 
 Tooling.
