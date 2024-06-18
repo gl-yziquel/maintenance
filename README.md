@@ -6,6 +6,8 @@ This is supposed to be a repository managing other repositories with the
 
 [jiri]: https://fuchsia.googlesource.com/jiri
 
+To check out the sources, just perform `just sources`.
+
 
 Repositories undergoing sporadic maintenance.
 ---------------------------------------------
