@@ -29,7 +29,7 @@
     <project name="icosahedron"
 	     path="icosahedron"
 	     remote="https://github.com/gl-yziquel/icosahedron"
-	     remotebranch="master">
+	     remotebranch="main">
     </project>
 
     <project name="reposync"
