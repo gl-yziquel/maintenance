@@ -41,7 +41,7 @@
     <project name="wang-prover-snobol4"
 	     path="wang-prover-snobol4"
 	     remote="https://github.com/gl-yziquel/wang-prover-snobol4"
-	     remotebranch="yziquel">
+	     remotebranch="master">
     </project>
   </projects>
 </manifest>
