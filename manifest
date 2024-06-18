@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projects>
+
+    <project name="browsh"
+             path="browsh"
+             remote="https://github.com/gl-yziquel/browsh"
+             remotebranch="yziquel">
+    </project>
+
+    <project name="taskshell"
+             path="taskshell"
+             remote="https://github.com/gl-yziquel/taskshell"
+             remotebranch="v1.2.0-yziquel">
+    </project>
+
+    <project name="python-parse-2d"
+             path="python-parse-2d"
+             remote="https://github.com/gl-yziquel/python-parse-2d"
+             remotebranch="yziquel">
+    </project>
+
+    <project name="legit"
+             path="legit"
+             remote="https://github.com/gl-yziquel/legit"
+             remotebranch="yziquel">
+    </project>
+
+    <project name="icosahedron"
+	     path="icosahedron"
+	     remote="https://github.com/gl-yziquel/icosahedron"
+	     remotebranch="master">
+    </project>
+
+    <project name="reposync"
+	     path="reposync"
+	     remote="https://github.com/gl-yziquel/reposync"
+	     remotebranch="yziquel">
+    </project>
+
+    <project name="wang-prover-snobol4"
+	     path="wang-prover-snobol4"
+	     remotebranch="yziquel">
+    </project>
+  </projects>
+</manifest>
