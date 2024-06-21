@@ -15,7 +15,10 @@ Repositories undergoing sporadic maintenance.
 We  here  document  the  list  of repositories  on  which  the  author  performs
 maintenance tasks of one kind or another.
 
-* The [tensorflow_probability][tf-prob] repository. It seems people do not build from source much these days. The build instructions in the readme file where not working since, as far as I can see, the 0.21 version. The build instructions from the readme file now do work after a path fixing fix.
+* The [tensorflow_probability][tf-prob] repository. It seems people do not build
+from source much these days. The build instructions in the readme file where not
+working since,  as far as  I can see, the  0.21 version. The  build instructions
+from the readme file now do work after a path fixing fix.
 
 * The [browsh][browsh]  repository. A fix to the Dockerfile  build has been made
 by Farzad Qassemi. A  link to a tarball for the go  language tarball was broken.
