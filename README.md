@@ -34,6 +34,8 @@ to give a shot at packaging it.
 * The [python-parse-2D][parse2D] repository. The packaging was not conventional.
 It now builds with `python -m build --wheel` from the root folder              .
 
+* The [tagua parser][tagua-parser] repository. It did not build because it relied on some old version of `nom` fetched from an obsolete url. It now builds from source.
+
 * The [legit][legit] repository. A frontend for serving git repositories, rather
 bare  bones. The  legit repository  is  pinned to  a version,  0.2.0, where  the
 mismatched pack length that has been hitting  the authors is known not to occur.
@@ -51,6 +53,7 @@ anymore...
 [go-task]: https://github.com/go-task/task
 [fpm]: https://github.com/jordansissel/fpm
 [parse2D]: https://github.com/gl-yziquel/python-parse-2d
+[tagua-parser]: https://github.com/gl-yziquel/parser
 
 
 Repositories undergoing sporadic curation.

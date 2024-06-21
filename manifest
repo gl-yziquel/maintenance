@@ -26,6 +26,12 @@
              remotebranch="yziquel">
     </project>
 
+    <project name="parser"
+             path="parser"
+             remote="https://github.com/gl-yziquel/parser"
+             remotebranch="yziquel">
+    </project>
+
     <project name="legit"
              path="legit"
              remote="https://github.com/gl-yziquel/legit"
