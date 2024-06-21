@@ -37,7 +37,9 @@ It now builds with `python -m build --wheel` from the root folder              .
 *  The [tagua  parser][tagua-parser] repository.  It  did not  build because  it
 relied on some old version of `nom`  fetched from an obsolete url. It now builds
 from source. We should nonetheless devise a tool to investigate methodically all
-available branches of the tagua parser, as it has been archived meanwhile. (A jiri manifest and project is in development to collecte the various reposritories of the Tagua project.)
+available  branches of  the tagua  parser, as  it has  been archived  meanwhile.
+(A  jiri  manifest  and  project  is in  development  to  collecte  the  various
+reposritories of the Tagua project.)
 
 * The [legit][legit] repository. A frontend for serving git repositories, rather
 bare  bones. The  legit repository  is  pinned to  a version,  0.2.0, where  the
