@@ -2,6 +2,12 @@
 <manifest>
   <projects>
 
+    <project name="probability"
+	     path="probability"
+	     remote="https://github.com/gl-yziquel/probability"
+	     remotebranch="yziquel">
+    </project>
+
     <project name="browsh"
              path="browsh"
              remote="https://github.com/gl-yziquel/browsh"
