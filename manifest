@@ -8,6 +8,12 @@
 	     remotebranch="yziquel">
     </project>
 
+    <project name="cogutil"
+	     path="cogutil"
+	     remote="https://github.com/gl-yziquel/cogutil"
+	     remotebranch="yziquel">
+    </project>
+
     <project name="browsh"
              path="browsh"
              remote="https://github.com/gl-yziquel/browsh"
