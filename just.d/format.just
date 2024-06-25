@@ -1,4 +1,5 @@
-format_exclude := "''.*'' just.d"
+format_exclude  := "''.*'' just.d"
+format_width    := "90"
 
 # Formats the markdown files.
 format:
@@ -7,5 +8,5 @@ format:
 [private]
 _format MD:
 	mkdir -p .tmp/`dirname "{{MD}}"`
-	cat {{MD}} | par -w 80 -j "-P=[-=>" > .tmp/{{MD}}.par && sleep 0.2 && mv .tmp/{{MD}}.par {{MD}}
+	cat {{MD}} | par -w {{format_width}} -j "-P=[-=>" > .tmp/{{MD}}.par && sleep 0.2 && mv .tmp/{{MD}}.par {{MD}}
 	rm -rf .tmp
