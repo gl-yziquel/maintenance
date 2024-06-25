@@ -70,12 +70,13 @@ Some projects are of  interest to the author, but are not in  format acceptable 
 consumption, either for  the author or the general  public. We here aim to  list them, and
 work on them:
 
-* The [`icosahedron`][icosahedron] repository, by
-[shironetsu][icosahedron-shironetsu],  is  a  Jupyter  notebook  describing  the
+* The [`icosahedron`][icosahedron] repository, by [shironetsu][icosahedron-shironetsu],  is  a  Jupyter  notebook  describing  the
 relationship between the icosahedron and the combinatorics of the Payley biplane geometry,
 along the lines of Kostant. Rough stuff.  Moreover, it is written in japanese. Needless to
 say, this is  not easy material to get  into. We hope to simplify the  process involved in
 that by progressively curating this repository in our own fork.
+
+* The [`gregr-verse`][greg-verse] repository provides and implementation in racket of the verse calculus, and was carved out from an experimental repository by Greg Rosenblatt to make it standalone.
 
 * The [kanren][kanren] declarative logic programming  system, by Oleg Kyseliov, William E.
 Byrd and Daniel P.  Friedman. The code of this project has been  migrated to github, which
@@ -87,7 +88,8 @@ its  [homepage][qu-prolog-homepage].  It is  a  prolog  system  with builtin  su
 quantification. The repository here provided is a concatenation of the released tarballs.
 
 [icosahedron]: https://github.com/gl-yziquel/icosahedron.git
-[icosahedron-shironets]: https://github.com/shironetsu/icosahedron.git
+[icosahedron-shironetsu]: https://github.com/shironetsu/icosahedron.git
+[gregr-verse]: https://github.com/gl-yziquel/gregr-verse
 [qu-prolog]: https://github.com/gl-yziquel/qu-prolog
 [qu-prolog-homepage]: https://staff.itee.uq.edu.au/pjr/HomePages/QuPrologHome.html
 

@@ -56,6 +56,12 @@
 	     remotebranch="main">
     </project>
 
+    <project name="gregr-verse"
+	     path="gregr-verse"
+	     remote="https://github.com/gl-yziquel/gregr-verse"
+	     remotebranch="master">
+    </project>
+
     <project name="reposync"
 	     path="reposync"
 	     remote="https://github.com/gl-yziquel/reposync"
