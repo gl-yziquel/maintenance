@@ -81,6 +81,8 @@ japanese. Needless  to say, this is  not easy material  to get into. We  hope to
 simplify the process involved in  that by progressively curating this repository
 in our own fork.
 
+* The [kanren][kanren] declarative logic programming system, by Oleg Kyseliov, William E. Byrd and Daniel P. Friedman. The code of this project has been migrated to github, which makes it more accessible.
+
 *  The [`qu-prolog`][qu-prolog]  system is  developed by  Peter Robinson  at the
 University of  Queensland, Australia. For  more details, such  as documentation,
 please  refer  to its  [homepage][qu-prolog-homepage].  It  is a  prolog  system
