@@ -20,10 +20,6 @@ source much these days. The build instructions in the readme file where not work
 as far as I can see, the 0.21 version.  The build instructions from the readme file now do
 work after a path fixing fix.
 
-* The  [opencog cogutil][cogutil]  repository. Its  installation instructions  using cmake
-require root privileges  to populate `/etc/ld.so.conf.d`. Our fix allows  to change `/etc`
-with the cmake variable `CMAKE_CONF_PREFIX`.
-
 * The [browsh][browsh] repository.  A fix to the Dockerfile build has  been made by Farzad
 Qassemi. A link to a tarball for the go language tarball was broken. It is now possible to
 build and execute the built docker image.
@@ -116,4 +112,7 @@ archeology. So.... here goes:
 
 * Wangs's [theorem prover][wang] in SNOBOL4.
 
+* [ATT Lisp Universal Hsell][attlush] for neural network implementation.
+
 [wang]: https://github.com/gl-yziquel/wang-prover-snobol4
+[attlush]: https://github.com/gl-yziquel/attlush-frozen
