@@ -61,6 +61,12 @@
 	     remotebranch="master">
     </project>
 
+    <project name="qu-prolog"
+	     path="qu-prolog"
+	     remote="https://github.com/gl-yziquel/qu-prolog"
+	     remotebranch="master">
+    </project>
+
 
     <!-- Repositories implementing tooling for source code. -->
 
@@ -76,12 +82,6 @@
     <project name="wang-prover-snobol4"
 	     path="wang-prover-snobol4"
 	     remote="https://github.com/gl-yziquel/wang-prover-snobol4"
-	     remotebranch="master">
-    </project>
-
-    <project name="qu-prolog"
-	     path="qu-prolog"
-	     remote="https://github.com/gl-yziquel/qu-prolog"
 	     remotebranch="master">
     </project>
 
