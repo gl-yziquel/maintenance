@@ -90,5 +90,12 @@
 	     remote="https://github.com/gl-yziquel/attlush-frozen"
 	     remotebranch="master">
     </project>
+
+    <project name="w3m"
+	     path="w3m"
+	     remote="https://github.com/gl-yziquel/w3m"
+	     remotebranch="master">
+    </project>
+
   </projects>
 </manifest>

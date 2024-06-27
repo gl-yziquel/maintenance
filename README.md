@@ -114,5 +114,8 @@ archeology. So.... here goes:
 
 * [ATT Lisp Universal Hsell][attlush] for neural network implementation.
 
+* [w3m][w3m] web browser or web pager. Faihful import of sourceforge CVS repository.
+
 [wang]: https://github.com/gl-yziquel/wang-prover-snobol4
 [attlush]: https://github.com/gl-yziquel/attlush-frozen
+[w3m]: https://github.com/gl-yziquel/w3m
