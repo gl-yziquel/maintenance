@@ -8,7 +8,8 @@ This is supposed to be a repository managing other repositories with the
 
 To check out the sources, just perform `just sources`.
 
-Ideally, we would like to have a monitoring tool that keeps the maintained branches up to date as automatically as possible. We could use [apscheduler][apscheduler] for that.
+Ideally, we would like to have a monitoring  tool that keeps the maintained branches up to
+date as automatically as possible. We could use [apscheduler][apscheduler] for that.
 
 
 Repositories undergoing sporadic maintenance.
@@ -22,7 +23,8 @@ source much these days. The build instructions in the readme file where not work
 as far as I can see, the 0.21 version.  The build instructions from the readme file now do
 work after a path fixing fix.
 
-* The [buildbot][buildbot] repository. A small fix making the build fail fast when yarn or yarnpkg is not present.
+* The [buildbot][buildbot] repository. A small fix making the build fail fast when yarn or
+yarnpkg is not present.
 
 * The [browsh][browsh] repository.  A fix to the Dockerfile build has  been made by Farzad
 Qassemi. A link to a tarball for the go language tarball was broken. It is now possible to
@@ -46,7 +48,7 @@ to collecte the various reposritories of the Tagua project.)
 * The  [legit][legit] repository.  A frontend  for serving  git repositories,  rather bare
 bones. The  legit repository  is pinned  to a  version, 0.2.0,  where the  mismatched pack
 length that has been hitting the authors is known not to occur. This is a regression being
-thus documented. Note: there seems  to be some forks of legit in the  wild such as that of
+thus documented. Note: there seems to be some forks of legit in the wild such as that of
 [mleka][legit-mleka] that  are not  easily discoverable  and that  have recent  commits we
 should investigate.  It seems however  that git upgrades have  broken this fix,  which did
 work, and does not anymore...
@@ -71,13 +73,16 @@ Some projects are of  interest to the author, but are not in  format acceptable 
 consumption, either for  the author or the general  public. We here aim to  list them, and
 work on them:
 
-* The [`icosahedron`][icosahedron] repository, by [shironetsu][icosahedron-shironetsu],  is  a  Jupyter  notebook  describing  the
-relationship between the icosahedron and the combinatorics of the Payley biplane geometry,
-along the lines of Kostant. Rough stuff.  Moreover, it is written in japanese. Needless to
-say, this is  not easy material to get  into. We hope to simplify the  process involved in
-that by progressively curating this repository in our own fork.
+*  The [`icosahedron`][icosahedron]  repository, by  [shironetsu][icosahedron-shironetsu],
+is  a  Jupyter notebook  describing  the  relationship  between  the icosahedron  and  the
+combinatorics of  the Payley biplane  geometry, along the  lines of Kostant.  Rough stuff.
+Moreover, it  is written in japanese.  Needless to say, this  is not easy material  to get
+into. We  hope to  simplify the process  involved in that  by progressively  curating this
+repository in our own fork.
 
-* The [`gregr-verse`][greg-verse] repository provides and implementation in racket of the verse calculus, and was carved out from an experimental repository by Greg Rosenblatt to make it standalone.
+* The [`gregr-verse`][greg-verse] repository provides  and implementation in racket of the
+verse calculus, and was  carved out from an experimental repository  by Greg Rosenblatt to
+make it standalone.
 
 * The [kanren][kanren] declarative logic programming  system, by Oleg Kyseliov, William E.
 Byrd and Daniel P.  Friedman. The code of this project has been  migrated to github, which
