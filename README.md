@@ -8,6 +8,8 @@ This is supposed to be a repository managing other repositories with the
 
 To check out the sources, just perform `just sources`.
 
+Ideally, we would like to have a monitoring tool that keeps the maintained branches up to date as automatically as possible. We could use [apscheduler][apscheduler] for that.
+
 
 Repositories undergoing sporadic maintenance.
 ---------------------------------------------
@@ -19,6 +21,8 @@ of one kind or another.
 source much these days. The build instructions in the readme file where not working since,
 as far as I can see, the 0.21 version.  The build instructions from the readme file now do
 work after a path fixing fix.
+
+* The [buildbot][buildbot] repository. A small fix making the build fail fast when yarn or yarnpkg is not present.
 
 * The [browsh][browsh] repository.  A fix to the Dockerfile build has  been made by Farzad
 Qassemi. A link to a tarball for the go language tarball was broken. It is now possible to
@@ -48,6 +52,7 @@ should investigate.  It seems however  that git upgrades have  broken this fix, 
 work, and does not anymore...
 
 [tf-prob]: https://github.com/gl-yziquel/probability
+[buildbot]: https://github.com/gl-yziquel/buildbot
 [cogutil]: https://github.com/gl-yziquel/cogutil
 [browsh]: https://github.com/gl-yziquel/browsh
 [legit]: https://github.com/gl-yziquel/legit
