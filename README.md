@@ -36,6 +36,8 @@ runner and taskwarrior's task  executable, taskshell has been given a  way to sp
 taskwarrior  executable executed  in the  tasksh shell  through the  `TASKBIN` environment
 variable. We should consider using [fpm][fpm] to give a shot at packaging it.
 
+* The [hatch][hatch] repository. Adding some documentation with respect to testing builder plugins.
+
 * The  [python-parse-2D][parse2D] repository. The  packaging was not conventional  It now.
 builds with `python -m build --wheel` from the root folder                               .
 
@@ -60,6 +62,7 @@ work, and does not anymore...
 [legit]: https://github.com/gl-yziquel/legit
 [legit-mleka]: https://mleku.net/legit
 [taskshell]: https://github.com/gl-yziquel/taskshell
+[hatch]: https://github.com/gl-yziquel/hatch
 [go-task]: https://github.com/go-task/task
 [fpm]: https://github.com/jordansissel/fpm
 [parse2D]: https://github.com/gl-yziquel/python-parse-2d
