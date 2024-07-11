@@ -101,6 +101,7 @@ quantification. The repository here provided is a concatenation of the released 
 [icosahedron]: https://github.com/gl-yziquel/icosahedron.git
 [icosahedron-shironetsu]: https://github.com/shironetsu/icosahedron.git
 [gregr-verse]: https://github.com/gl-yziquel/gregr-verse
+[kanren]: https://github.com/gl-yziquel/kanren
 [qu-prolog]: https://github.com/gl-yziquel/qu-prolog
 [qu-prolog-homepage]: https://staff.itee.uq.edu.au/pjr/HomePages/QuPrologHome.html
 
