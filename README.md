@@ -11,6 +11,8 @@ To check out the sources, just perform `just sources`.
 Ideally, we would like to have a monitoring  tool that keeps the maintained branches up to
 date as automatically as possible. We could use [apscheduler][apscheduler] for that.
 
+[apscheduler]: https://apscheduler.readthedocs.io/en/3.x/
+
 
 Repositories undergoing sporadic maintenance.
 ---------------------------------------------
