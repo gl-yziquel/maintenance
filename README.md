@@ -85,7 +85,7 @@ Moreover, it  is written in japanese.  Needless to say, this  is not easy materi
 into. We  hope to  simplify the process  involved in that  by progressively  curating this
 repository in our own fork.
 
-* The [`gregr-verse`][greg-verse] repository provides  and implementation in racket of the
+* The [`gregr-verse`][gregr-verse] repository provides  and implementation in racket of the
 verse calculus, and was  carved out from an experimental repository  by Greg Rosenblatt to
 make it standalone.
 
